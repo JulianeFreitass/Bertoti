@@ -1,0 +1,21 @@
+package strategypattern;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Participante joao = new Participante();
+	
+		joao.setShow(new IngressoComum());
+		joao.participarShow();
+		
+		System.out.println("--------------------------------");
+		
+		
+		joao.setShow(new IngressoVIP());
+		joao.participarShow();
+	
+		
+	}
+	
+}
