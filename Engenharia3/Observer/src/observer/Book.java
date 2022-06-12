@@ -1,7 +1,7 @@
-package observerpattern;
+package observer;
 
-import observerpattern.Library;
-import observerpattern.Observer;
+import observer.Library;
+import observer.Observer;
 
 public class Book extends Observer {
 	public Book(Library estado) {

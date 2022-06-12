@@ -1,9 +1,9 @@
-package observerpattern;
+package observer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import observerpattern.Observer;
+import observer.Observer;
 
 public class Library {
 	private List<Observer> observers = new ArrayList<Observer>();

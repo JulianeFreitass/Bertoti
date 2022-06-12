@@ -1,6 +1,6 @@
-package observerpattern;
+package observer;
 
-import observerpattern.Library;
+import observer.Library;
 
 public abstract class Observer {
 	protected Library estado;

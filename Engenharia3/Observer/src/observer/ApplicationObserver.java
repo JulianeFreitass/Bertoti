@@ -1,7 +1,7 @@
-package observerpattern;
+package observer;
 
-import observerpattern.Library;
-import observerpattern.Book;
+import observer.Library;
+import observer.Book;
 
 public class ApplicationObserver {
 	public static void main(String[] args) {
